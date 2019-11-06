@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#225E9C</color>
+    <color name="colorPrimaryDark">#225E9C</color>
+    <color name="colorAccent">#225E9C   </color>
+    <color name="white">#FFFFFFFf</color>
+    <color name="black">#000</color>
+    <color name="colorText">#353434</color>
+    <color name="colorLightGreen">#81bf41</color>
+    <color name="colorLightOrange">#f69321</color>
+    <color name="colorDarkOrange">#FC6B0E</color>
+    <color name="dashboard">#E4E3EC</color>
+    <color name="backg">#225E9C</color>
+</resources>

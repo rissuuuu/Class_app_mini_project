@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guide">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/nagamani" />
+
+    <TextView
+        android:textColor="@android:color/background_dark"
+
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+
+        android:text="M Naga Mani"/>
+    <TextView
+
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView4"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Assistant Professor
+"/><TextView
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/textView5"
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="Ph.D, University of Hyderabad, India"/>
+
+    <TextView
+        android:layout_marginLeft="90dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textView6"
+        android:textSize="20sp"
+        android:text="Contact Address:
+
+SCIS, University of Hyderabad,
+Central University P.O,
+Hyderabad - 500 046.
+INDIA.
+
+Phone: 91-040-23134018
+nagamanics@uohyd.ernet.in
+Home Page"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Areas of Interest:
+Speech Processing, Information Retrieval, Intelligent tutoring system, Cognitive psychology, Embeded Systems."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+</RelativeLayout>
